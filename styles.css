@@ -1,11 +1,24 @@
+<<<<<<< HEAD
+html {
+    background-color: #fff;
+}
+body {
+    background-color: #fff;
+    max-width: 960px;
+=======
 body {
     max-width: 720px;
+>>>>>>> b98298c... Simplify things
     margin: 0 auto;
     padding: 15px;
     font-family: "Muli", Arial, sans-serif;
     font-weight: 300;
     font-size: 17px;
+<<<<<<< HEAD
+    line-height: 1.5;
+=======
     padding-bottom: 60px;
+>>>>>>> b98298c... Simplify things
 }
 
 header {
@@ -13,7 +26,11 @@ header {
 }
 
 header img {
+<<<<<<< HEAD
+    margin: 0 0 20px;
+=======
     margin: 60px 0 15px;
+>>>>>>> b98298c... Simplify things
     width: 175px;
     -webkit-wmoz-border-radius: 50%;
     -moz-wmoz-border-radius: 50%;
@@ -26,10 +43,25 @@ h1, h2 {
     font-weight: 400;
 }
 
+<<<<<<< HEAD
+h1 {
+    font-size: 2.5em;
+    margin: 0 0 15px;
+}
+
+=======
+>>>>>>> b98298c... Simplify things
 h2 {
     border-bottom: 1px solid #ccc;
 }
 
+<<<<<<< HEAD
+p {
+    margin: 10px 0;
+}
+
+=======
+>>>>>>> b98298c... Simplify things
 a {
     display: inline-block;
     text-decoration: none;
@@ -39,7 +71,45 @@ a {
     margin: 0 10px 15px 0;
 }
 
+<<<<<<< HEAD
+.links {
+    padding: 120px 0 0 15px;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+.links a {
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        max-width: 720px;
+    }
+    .links {
+        padding: 0;
+    }
+
+    .links li {
+        display: inline;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .links li {
+        display: block;
+        float: none;
+    }
+
+    .links li a {
+        display: block;
+    }
+=======
 
 .links a {
     font-size: 1.4em;
+>>>>>>> b98298c... Simplify things
 }
