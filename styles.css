@@ -1,0 +1,45 @@
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: "Muli", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 60px;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    margin: 60px 0 15px;
+    width: 175px;
+    -webkit-wmoz-border-radius: 50%;
+    -moz-wmoz-border-radius: 50%;
+    -ms-wmoz-border-radius: 50%;
+    -o-wmoz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff2d55;
+    color: #fff;
+    padding: 10px;
+    margin: 0 10px 15px 0;
+}
+
+
+.links a {
+    font-size: 1.4em;
+}
